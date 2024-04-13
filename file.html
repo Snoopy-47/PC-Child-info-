@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Childs Infomation</title>
+<link rel ='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link rel="stylesheet" href="child.css">
+</head>
+<body>
+<div class="container">
+<h2>Fill your Child's Infomation here</h2>
+<div class="form-container">
+<form>
+    <div class="input-name">
+        <i class="fa fa-user lock"></i>
+        <input type="text" placeholder="First Name" required class="name">
+        <span>
+            <i class="fa fa-user lock"></i>
+            <input type="text" placeholder="Last Name"required class="name">  
+        </span>
+    </div>
+
+    <div class="input-name">
+        <i class="fa fa-calendar lock"></i>
+        <input type="number" placeholder="Enter your child's Age" required class="text-name">
+    </div>
+    <div class="input-name">
+        <input type="radio" class="radio-btn" name="gender">
+        <label style ="margin-right: 30px;">Male</label>
+
+        <input type="radio" class="radio-btn" name="gender">
+        <label>Female</label>
+    </div>
+    <div class="input-name">
+        <i class="fas fa-heart lock"></i>
+        <input type="text" placeholder="Relation" required class="text-name">
+    </div>
+
+    <div class="input-name">
+        <input type="checkbox" class="check-btn" id="cb">
+        <label for="cb" class="check">I agree on the given information is correct</label>
+    </div>
+    <div class="input-name">
+        <input type="submit" class="button" value="Register">
+        
+    </div>
+</form>
+
+</div>
+</div>
+</body>
+</html>
